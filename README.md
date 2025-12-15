@@ -1,97 +1,68 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Digital Clock & Timer App
 
-# Getting Started
+This project is a simple and interactive **Digital Clock & Timer** mobile application built using **React Native**. The app displays the current time in a digital format and includes timer functionality, making it useful for everyday time tracking and practice purposes.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+## Overview
 
-## Step 1: Start Metro
+The Digital Clock & Timer app focuses on real-time updates and smooth user interaction. It is designed with a clean interface so users can easily view the current time and use the timer without any confusion.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+With this app, users can:
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+* View the current time in digital format
+* Start and manage a timer
+* Experience smooth real-time updates
 
-```sh
-# Using npm
-npm start
+## Features
 
-# OR using Yarn
-yarn start
-```
+* Real-time digital clock
+* Timer functionality
+* Clean and minimal UI
+* Smooth performance on mobile devices
+* Easy to use and lightweight
 
-## Step 2: Build and run your app
+## Tech Stack
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+* **React Native**
+* **JavaScript**
+* **CSS / Styled Components (as used in project)**
 
-### Android
+## Running the Project Locally
 
-```sh
-# Using npm
-npm run android
+1. Clone the repository:
 
-# OR using Yarn
-yarn android
-```
+   ```bash
+   git clone https://github.com/MsTanviAgrawal/Digital-Clock-Timer.git
+   ```
+2. Navigate into the project directory:
 
-### iOS
+   ```bash
+   cd Digital-Clock-Timer
+   ```
+3. Install dependencies:
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+   ```bash
+   npm install
+   ```
+4. Start the app:
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+   ```bash
+   npm start
+   ```
+5. Run the app on an emulator or physical device using Expo or React Native CLI
 
-```sh
-bundle install
-```
+## Purpose of This Project
 
-Then, and every time you update your native dependencies, run:
+This project was built to practice:
 
-```sh
-bundle exec pod install
-```
+* React Native basics
+* Working with time and intervals
+* State management
+* Building simple and useful mobile utilities
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+It’s a small project focused on learning through hands-on development.
 
-```sh
-# Using npm
-npm run ios
+## Contact
 
-# OR using Yarn
-yarn ios
-```
+If you have any feedback or suggestions, feel free to reach out!
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Thank you for checking out the Digital Clock & Timer app!
